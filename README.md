@@ -1,4 +1,4 @@
-# Internal and External Data Transfer (IETrans) for Scene Graph Generation
+# Mixup and Balanced Relation Learning (MBRL)
 
 ## Install
 Please refer to [INSTALL](INSTALL.md).
@@ -11,7 +11,7 @@ Please refer to [DATASET](DATASET.md).
 
 ### Download Pre-trained Detector
 
-In generally SGG tasks, the detector is pre-trained on the object bounding box annotations on training set. We directly use the [pre-trained Faster R-CNN](https://onedrive.live.com/embed?cid=22376FFAD72C4B64&resid=22376FFAD72C4B64%21779870&authkey=AH5CPVb9g5E67iQ) provided by [Scene-Graph-Benchmark.pytorch](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch), because our 20 category setting and their 50 category setting have the same training set.
+In generally SGG tasks, the detector is pre-trained on the object bounding box annotations on training set. We directly use the [pre-trained Faster R-CNN](https://onedrive.live.com/embed?cid=22376FFAD72C4B64&resid=22376FFAD72C4B64%21779870&authkey=AH5CPVb9g5E67iQ) provided by [Scene-Graph-Benchmark.pytorch](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch).
 
 After you download the [Faster R-CNN model](https://onedrive.live.com/embed?cid=22376FFAD72C4B64&resid=22376FFAD72C4B64%21779870&authkey=AH5CPVb9g5E67iQ), please extract all the files to the directory `$INSTALL_DIR/checkpoints/pretrained_faster_rcnn`. To train your own Faster R-CNN model, please follow the next section.
 
