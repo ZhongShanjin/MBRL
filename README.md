@@ -1,4 +1,5 @@
 # Mixup and Balanced Relation Learning (MBRL)
+[![DOI](https://zenodo.org/badge/901859888.svg)](https://doi.org/10.5281/zenodo.14404443)
 
 ## Install
 Please refer to [INSTALL](INSTALL.md).
@@ -113,5 +114,3 @@ Thanks for their excellent codes.
 Tang, K. (2020). A Scene Graph Generation Codebase in PyTorch [Computer software]. GitHub. Retrieved July 15, 2024, from https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch
 
 Zhang, A. (2022). IETrans-SGG.pytorch [Computer software]. GitHub. Retrieved July 15, 2024, from https://github.com/waxnkw/IETrans-SGG.pytorch
-
-[![DOI](https://zenodo.org/badge/901859888.svg)](https://doi.org/10.5281/zenodo.14404443)
